@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+__pycache__/
+*.pyc
+backend/.venv/
+backend/.venv-codex/
+backend/models/*.h5
+backend/models/*.tflite
+backend/models/*.json
