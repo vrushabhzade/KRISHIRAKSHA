@@ -26,3 +26,15 @@ Deploy `frontend` to Vercel (build command `npm run build`, output `dist`) and `
 - `GET /scans/history?farmerId=…` — reverse chronological scan records
 
 The APScheduler job runs daily at 06:00 Asia/Kolkata and sends only medium/high weather-rule alerts through configured Twilio SMS or WhatsApp sandbox credentials.
+
+## How Codex & GPT-5.6 Were Used
+
+KrishiRaksha was developed with OpenAI Codex and GPT-5.6 as AI-assisted development tools across the project workflow. Their contributions included:
+
+- **Planning and architecture:** refining requirements, suggesting the frontend/backend structure, and helping map features such as disease diagnosis, farmer profiles, weather alerts, and scan history.
+- **Implementation support:** accelerating boilerplate and feature development, including API routes, frontend components, model-integration utilities, and configuration guidance.
+- **Debugging and improvement:** helping investigate runtime and integration issues, identify edge cases, and suggest readability, maintainability, and performance improvements.
+- **Testing and review:** supporting code review, test-case ideas, and checks for consistency between application modules and deployment configuration.
+- **Documentation:** improving setup, deployment, API, and workflow documentation, including this README.
+
+All AI-generated suggestions and code were reviewed, tested, and adapted before inclusion in the project. Codex and GPT-5.6 were used as collaborative tools to speed up development while project decisions and final validation remained with the developer.
